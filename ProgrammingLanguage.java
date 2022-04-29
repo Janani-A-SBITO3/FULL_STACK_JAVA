@@ -1,8 +1,7 @@
 
-
 public class ProgrammingLanguage {
 	String keywords; //has a
-	
+	static int version; 
 	Program writeProgram (String k) {
 		Program p =new Program();
 		System.out.println("Program written...."+k);
@@ -14,6 +13,11 @@ public class ProgrammingLanguage {
 		System.out.println("Program executed....");
 		return o;
 		
+	}
+	
+	static void updatePatch() {
+		version++;
+		System.out.println("Current Version..."+version);
 	}
 }
 
@@ -34,9 +38,9 @@ class Java extends ProgrammingLanguage{
 class Program{
 	
 	
-}
-
-class Output{ 
 	
 }
 
+class Output{
+	
+}
