@@ -36,7 +36,7 @@ class Program{
 	
 }
 
-class Output{
+class Output{ 
 	
 }
 
