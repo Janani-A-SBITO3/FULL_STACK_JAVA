@@ -47,7 +47,7 @@ class Program{
 
 class Output{
       
-         Resultset rs;
+         Resultset rs;. //has a 
 
 	
 }
