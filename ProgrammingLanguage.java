@@ -1,7 +1,7 @@
 
 public class ProgrammingLanguage {
 	String keywords; //has a
-	static int version; 
+	static int version; //has a
 	Program writeProgram (String k) {
 		Program p =new Program();
 		System.out.println("Program written...."+k);
@@ -23,6 +23,8 @@ public class ProgrammingLanguage {
 
 class C extends ProgrammingLanguage{ 
 	
+        String author;//has a 
+
 	Program writeProgram (String keywords) {
 		return super.writeProgram(keywords);
 	}
@@ -30,17 +32,27 @@ class C extends ProgrammingLanguage{
 
 class Java extends ProgrammingLanguage{
 	
+        String author; //has a
+
 	Program writeProgram (String keywords) {
 		return super.writeProgram(keywords);
 	}
 }
 
 class Program{
-	
+	String logic; //has a
 	
 	
 }
 
 class Output{
+      
+         Resultset rs;
+
 	
+}
+
+Class Resultset {
+
+
 }
